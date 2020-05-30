@@ -42,5 +42,26 @@ class Contribution:
         
 
 
+class Customer:
 
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+
+    def fullname(self):
+        return "{} {}".format(self.first + self.last)
+
+
+
+
+class CashCollected:
+
+    def __init__(self, date, amount):
+        self.date = date
+        self.amount = amount
+
+
+    def Total_today(self):
+        return 
 
