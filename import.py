@@ -63,5 +63,8 @@ class CashCollected:
 
 
     def Total_today(self):
-        return 
+        pass
+
+
+    
 
