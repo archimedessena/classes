@@ -19,8 +19,8 @@ class Employee:
         self.pay = int(self.pay * self.amount_increment)
 
      # using the class as an argument, it takes in cls as the first instance but regular methods takes in self as the first argument
-     @classmethod
-     def set_raise_amt(cls, amount):
+    @classmethod
+    def set_raise_amt(cls, amount):
          cls.amount_increment = amount
 
 

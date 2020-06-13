@@ -10,7 +10,7 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last) 
 
-
+#voqoxvmjhhgegjya
 now = Employee('Archimedes', 'Senadju', 100000)
 print(now.fullname())
 #now1 = Employee('Jane', 'Stella', 300)

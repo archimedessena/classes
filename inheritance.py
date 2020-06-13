@@ -51,12 +51,23 @@ class Manager(Employee):
             print('-->', emp.fullname())
 
 
+# isinstance() tells us if an object is an instance of a class
+#print(isinstance(mgr_1, manager))
+# issubclass tells us if a class is subclass of another
+#print(issubclass(Manager, Developer))
+
+
+
+    
+
 new_dev = Developer('Gaza', 'Sena', 55800, 'Python')
 new_dev_1 = Developer('Chima', 'Acid', 599999, 'Java')
 
-print(new_dev.email)
-print(new_dev_1.prog_lang)
-print(new_dev_1.apply_raise())
+mgr_1 = Manager('Senadju', 'Godway', 50000, [new_dev_1])
+print(mgr_1.add_emp(new_dev_1))
+#print(new_dev.email)
+#print(new_dev_1.prog_lang)
+#print(new_dev_1.apply_raise())
 
 
 
